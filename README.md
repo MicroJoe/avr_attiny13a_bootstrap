@@ -21,6 +21,11 @@ This rule will flash the `main.hex` file to the microcontroller using the
 `/dev/ttyUSB0` serial port interface, which is an Arduino with ICSP firmware
 in my case but this may work with any serial USB flash tool I guess.
 
+## Documentation
+
+The documentation of the chip can be found [directly as a PDF file on ATMEL’s
+website](http://www.atmel.com/Images/doc8126.pdf).
+
 ## Copyright
 
 This little project is brought to you under WTFPL license, so feel free to use.
