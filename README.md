@@ -3,6 +3,17 @@
 This is a simple example Makefile cross compiling project for the AVR ATtiny13A
 microcontroller.
 
+## Dependencies
+
+If you are using Archlinux, you will need to install the following
+dependencies:
+
+ - `avr-gcc`, GCC for the AVR architecture.
+ - `avr-libc`, the C header files for AVR C programming.
+ - `avrdude`, the flashing toolkit for AVR ICSP.
+
+Package naming should be similar if using other GNU/Linux distros.
+
 ## Makefile rules
 
 This Makefile is very simple and have two important rules.
